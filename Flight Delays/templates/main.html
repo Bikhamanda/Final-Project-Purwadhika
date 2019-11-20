@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let Us Help You in Your Travel </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine|Sofia' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+    <middle>
+        <style type="text/css">
+        body{
+            background-image : url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+            background-position : center ;
+            background-size: cover ;
+        }
+        </style>
+    </middle>
+    <center>
+        <br>
+        </br>
+        <br>
+        </br>
+        <h1>Check your flight NOW !</h1>
+        <br>
+        </br>
+        <br>
+        </br>
+        <form method ="POST" action="http://127.0.0.1:5000">
+            <br></br>
+            <br></br>
+            <div class="row">
+                <div class="col s4">
+                    <input class="col s4"  type="number" name="day_sd" placeholder="Departure Day(1-31)"/>
+                </div>
+                <div class="col s4">
+                    <input class="col s4" type="number" name="month_sd" placeholder="Departure Month(1-12)"/>
+                </div>
+                <div class="col s4">
+                    <input class="col s4"  type="number" name="hour_sd" placeholder="Departure Hour(1-24)"/>
+                </div>
+            </div>
+            <br>
+            </br>
+            <div class="row">
+                    <div class="col s4">
+                        <input class="col s4"  type="number" name="day_sa" placeholder="Arrival Day(1-31)"/>
+                    </div>
+                    <div class="col s4">
+                        <input class="col s4" type="number" name="month_sa" placeholder="Arrival Month(1-12)"/>
+                    </div>
+                    <div class="col s4">
+                        <input class="col s4"  type="number" name="hour_sa" placeholder="Arrival Hour(1-24)"/>
+                    </div>
+                </div>
+                <br>
+                </br>
+            <div class="row">
+                    <div class="col s4">
+                        <input class="col s4"  type="number" name="distance" placeholder="Distance(in Miles)"/>
+                    </div>
+                    <div class="col s4">
+                        <input class="col s4" type="number" name="air_time" placeholder="Air Time(1-150)"/>
+                    </div>
+                    <div class="col s4">
+                        <input class="col s4"  type="number" name="sd" placeholder="Scheduled Departure"/>
+                    </div>
+                </div>
+                <br>
+                </br>
+            <br>
+            </br>
+            <input type="submit" value="Predict">
+            <br>
+            <br>
+            {{data}}
+        </form>
+    </center>
+</body>
+</html>

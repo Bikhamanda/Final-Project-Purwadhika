@@ -8,7 +8,7 @@
 
 ### From a technical point of view, the main aspects of python covered throughout the notebook are:
 
-    ### visualization: matplolib, seaborn, basemap
-    ### data manipulation: pandas, numpy
-    ### modeling: sklearn
-    ### class definition: classification
+     visualization: matplolib, seaborn, basemap
+     data manipulation: pandas, numpy
+     modeling: sklearn
+     class definition: classification

@@ -12,3 +12,6 @@
      data manipulation: pandas, numpy
      modeling: sklearn
      class definition: classification
+     
+
+### During the EDA, I intended to create good quality figures from which the information would be easily accessible at a first glance. An important aspect of the data scientist job consists in divulgating its findings to people who do not necessarily have knowledge in the technical aspects data scientists master. Graphics are surely the most powerful tool to achieve that goal, and mastering visualization techniques thus seems important.
